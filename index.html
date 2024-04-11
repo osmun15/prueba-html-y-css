@@ -18,7 +18,7 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="titulo-principal"><img src="./public/icon/menor.webp" alt="menor" width="30px" height="30px"><span style="color: #6b5cff;">T</span>rans<span style="color: #6b5cff;">R</span>iwi<img src="/public/icon/mayor.webp" alt="mayor" width="30px" height="30px"></h1>
+        <h1 class="titulo-principal"><img src="./public/icon/menor.webp" alt="menor" width="20px" height="20px"><span style="color: #6b5cff;">T</span>rans<span style="color: #6b5cff;">R</span>iwi <img src="./public/icon/mayor.webp" alt="mayor" width="20px" height="20px"></h1>
 
         <nav class="nav">
             <a href="">
@@ -37,41 +37,48 @@
                 <i class="bi bi-telephone-fill"></i>
                 <span>Llamanos</span>
             </a>
-            <button type="submit">Iniciar Sesion</button>
-            <button type="submit">Registrarte</button>
+            <button class="boton" type="submit">Iniciar Sesion</button>
+            <button class="boton" type="submit">Registrarte</button>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Transportate desde cualquier lugar hacia tu centro de entrenamiento</h1>
-            <div>
-                <input type="text" name="usuario" id="usuario" placeholder="Ingresa Tu Ubicacion">
+        <section class="sesion">
+            <div class="contenedor-sesion">
+                <h1 class="titulo-sesion">Transportate desde cualquier lugar hacia tu centro de entrenamiento</h1>
+                <input class="input-sesion" type="text" name="usuario" id="usuario" placeholder="Ingresa Tu Ubicacion">
                 <br>
-                <input type="text" name="usuario" id="usuario" placeholder="Selecciona Tu Centro De Formacion">
+                <input class="input-sesion" type="text" name="usuario" id="usuario" placeholder="Selecciona Tu Centro De Formacion">
+                <br>
+                <button class="boton2" type="submit"><i class="bi bi-send-fill"></i> Solicitar Vehiculo</button>
             </div>
-            <br>
-            <button type="submit"><i class="bi bi-send-fill"></i>Solicitar Vehiculo</button>
             <div>
-                <img src="./public/img/cuatro_pasajeros.webp" alt="pasajeros">
+                <img class="imagen-sesion" src="./public/img/cuatro_pasajeros.webp" alt="pasajeros">
             </div>
         </section>
 
-        <section>
+        <section class="sesion">
             <div>
-                <img src="./public/img/conductora.webp" alt="conductora">
+                <img class="imagen-sesion2" src="./public/img/conductora.webp" alt="conductora">
             </div>
-            <div>
-                <h1>Registrate cuando quieras y genera las ganancias que necesites</h1>
-                <p>¡unete hoy y abre las puertas a tus oportunidades financieras!</p>
-                <p>observa la lista de veniculos disponibles en cada una de nuestras sedes</p>
+            <div class="contenedor-texto">
+                <h1 class="titulo-sesion">Registrate cuando quieras y genera las ganancias que necesites</h1>
+                <br>
+                <p class="parrafo-sesion">¡unete hoy y abre las puertas a tus oportunidades financieras!</p>
             </div>
+        </section>
+
+        <section class="sesion">
             <div>
-                <table>
+                <h1 class="titulo-sesion">Viaja con amigos</h1>
+                <p class="parrafo-sesion">¡viaja con amigos y crea recuerdos inolvidables!</p>
+                <p class="parrafo-sesion">observa la lista de veniculos disponibles en cada una de nuestras sedes</p>
+
+                <table class="tabla">
                     <thead>
                         <tr>
-                            <th><i class="bi bi-buildings-fill"></i>Sede</th>
-                            <th><i class="bi bi-car-front-fill"></i>Vehiculos</th>
-                            <th><i class="bi bi-bicycle"></i>Motos</th>
+                            <th class="titulo-tabla"><i class="bi bi-buildings-fill"></i> Sede</th>
+                            <th class="titulo-tabla"><i class="bi bi-car-front-fill"></i> Vehiculos</th>
+                            <th class="titulo-tabla"><i class="bi bi-bicycle"></i> Motos</th>
                         </tr>
                     </thead>
                     <tr>
@@ -95,6 +102,9 @@
                         <td>200</td>
                     </tr>
                 </table>
+            </div>
+            <div>
+                <img class="imagen-sesion3" src="./public/img/motociclistas.webp" alt="conductora">
             </div>
         </section>
 

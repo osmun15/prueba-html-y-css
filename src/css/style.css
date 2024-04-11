@@ -19,6 +19,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 60px;
     background-color: #F9FAFC;
 
     position: fixed;
@@ -29,11 +32,113 @@
 .titulo-principal{
     font-size: xx-large;
     color: var(--azul-oscuro);
+    margin-left: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
 }
 
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 18px;
+    margin-right: 12px;
+}
+
+.nav a{
+    color: var(--azul-oscuro);
+    text-decoration: none;
+    gap: 50px;
+}
+
+.boton{
+    width: 95px;
+    height: 25px;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    background: var(--azul-claro);
+    color: var(--blanco);
+}
+
+
+.sesion{
+    display:flex;
+    margin-top: 75px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.titulo-sesion{
+    color: var(--azul-oscuro);
+    text-align: center;
+    width: 400px;
+    margin-left: 80px;
+}
+
+.imagen-sesion{
+    width: 430px;
+    height: 390px;
+    margin-right: 100px;
+    border-radius: 22px;
+}
+
+.input-sesion{
+    width: 300px;
+    height: 25px;
+    margin-left: 135px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.boton2{
+    width: 135px;
+    height: 28px;
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    background: var(--azul-claro);
+    color: var(--blanco);
+    margin-left: 210px;
+}
+
+.parrafo-sesion{
+    text-align: center;
+    margin-left: 60px;
+}
+
+.contenedor-texto{
+    margin-right: 150px;
+}
+
+.imagen-sesion2{
+    width: 415px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 22px;
+}
+
+.tabla{
+    margin-left: 160px;
+    margin-top: 18px;
+    text-align: center;
+    height: 110px;
+}
+
+.titulo-tabla{
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #6b5cff;
+}
+
+.imagen-sesion3{
+    width: 415px;
+    height: 400px;
+    margin-right: 100px;
+    border-radius: 22px;
 }

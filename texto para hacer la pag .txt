@@ -1,0 +1,45 @@
+Transportate desde cualquier lugar hacia tu centro de entrenamiento
+
+Registrate cuando quieras y genera las ganancias que necesites  --h1
+¡unete hoy y abre las puertas a tus oportunidades financieras! -- p
+
+Viaja con amigos --h1
+¡viaja con amigos y crea recuerdos inolvidables!  --p
+observa la lista de veniculos disponibles en cada una de nuestras sedes --p
+
+Riwi Medellin
+15
+40
+
+Riwi Bucaramanga
+10
+30
+
+Riwi Barranquilla
+20
+180
+
+Riwi Cali
+8
+200
+
+¿Que necesito para ser un conductor riwi?
+
+Requisitos --h3
+ser mayor de 18 años --p
+verificacion de antecedentes --p
+ser coder riwi --p
+
+Documentos  --h3
+Licencia de conduccion vigente  --p
+SOAT vigente  --p
+Tarjeta de propiedad del vehiculo actual  --p
+
+Empezar es muy facil  --h3
+Registrate  --p
+Sube tus documentos  --p
+Sal a manejar  --p
+
+Registrate cuando quieras  --h1
+
+Acerca de nosotros  --h1
