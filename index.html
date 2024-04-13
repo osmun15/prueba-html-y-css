@@ -6,7 +6,7 @@
 <meta name="description" content="descubre el nuevo sistema de transporte de riwi, puedes hacer mas ingresos" />
 <meta name="keywords" content="transporte, rutas, movilizacion, personal de trabajo">
 <meta name="sitedomain" content="https://transriwi/" />
-<meta name="organization" content="organizacion" />
+<meta name="organization" content="riwi_dell" />
 <meta name="author" content="su nombre" />
 <meta name="designer" content="su nombre" />
 <meta name="copyright" content="© 2024 TransRiwi. Todos los derechos reservados">
@@ -21,24 +21,24 @@
         <h1 class="titulo-principal"><img src="./public/icon/menor.webp" alt="menor" width="20px" height="20px"><span style="color: #6b5cff;">T</span>rans<span style="color: #6b5cff;">R</span>iwi <img src="./public/icon/mayor.webp" alt="mayor" width="20px" height="20px"></h1>
 
         <nav class="nav">
-            <a href="">
+            <a href="#requisitos">
                 <i class="bi bi-card-checklist"></i>
                 <span>Requisitos</span>
             </a>
-            <a href="">
+            <a href="#nosotros">
                 <i class="bi bi-geo-fill"></i>
                 <span>Acerca De Nosotros</span>
             </a>
-            <a href="">
+            <a href="https://www.microsoft.com/es-co/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook" target="_blank">
                 <i class="bi bi-envelope-fill"></i>
                 <span>Contactanos</span>
             </a>
-            <a href="">
+            <a href="https://api.whatsapp.com/send?phone=3017325327" target="_blank">
                 <i class="bi bi-telephone-fill"></i>
                 <span>Llamanos</span>
             </a>
-            <button class="boton" type="submit">Iniciar Sesion</button>
-            <button class="boton" type="submit">Registrarte</button>
+            <button class="boton" type="submit"><a href="https://moodle.riwi.io/login/index.php" target="_blank">Iniciar Sesion</a></button>
+            <button class="boton" type="submit"><a href="#registrate">Registrarte</a></button>
         </nav>
     </header>
     <main>
@@ -70,6 +70,7 @@
         <section class="sesion">
             <div>
                 <h1 class="titulo-sesion">Viaja con amigos</h1>
+                <br>
                 <p class="parrafo-sesion">¡viaja con amigos y crea recuerdos inolvidables!</p>
                 <p class="parrafo-sesion">observa la lista de veniculos disponibles en cada una de nuestras sedes</p>
 
@@ -108,13 +109,111 @@
             </div>
         </section>
 
-        <section>
+        <section class="sesion4">
             <div>
-                <h1>Viaja con amigos</h1>
-                <p>¡viaja con amigos y crea recuerdos inolvidables!</p>
+                <h1 id="requisitos" class="titulo-sesion4">¿Que necesito para ser un conductor riwi?</h1>
+            </div>
+
+            <div>
+                <img class="imagen-sesion4" src="./public/img/conductores.webp" alt="conductores">
             </div>
         </section>
+
+        <section class="sesion5">
+            <div>
+                <span style="color: #6b5cff;"><i class="bi bi-star-fill"></i></span>
+                <h3>Requisitos</h3>
+                <p>Ser mayor de 18 años</p>
+                <p>Verificacion de antecedentes</p>
+                <p>Ser coder de riwi</p>
+            </div>
+            <div>
+                <span style="color: #6b5cff;"><i class="bi bi-file-earmark-text-fill"></i></span>
+                <h3>Documentos</h3>
+                <p>Licencia de conducion vigente</p>
+                <p>SOAT vigente</p>
+                <p>Tarjeta de propiedad del vehiculo actual</p>
+            </div>
+            <div>
+                <span style="color: #6b5cff;"><i class="bi bi-calendar-fill"></i></span>
+                <h3>Empezar es muy facil</h3>
+                <p>Registrate</p>
+                <p>sube tus documentos</p>
+                <p>Sal a manejar</p>
+            </div>
+        </section>
+
+        <section id="registrate" class="sesion6">
+            <h2 class="titulo-sesion6">Registrate cuando quieras</h2>
+            <div class="formulario">
+                <input class="input6" type="text" name="usuario" id="usuario" placeholder="ingresa tu nombre" required>
+                <br>
+                <br>
+                <input class="input6" type="email" name="usuario" id="usuario" placeholder="ingresa tu correo" required>
+                <br>
+                <br>
+                <input class="input6" type="text" name="usuario" id="usuario" placeholder="ingresa tu telefono" required>
+                <br>
+                <br>
+                <input class="input6" list="centro-formacion" name="escoge centro" id="escoge centro" placeholder="Selecciona tu centro de formacion" required>
+                <datalist id="centro-formacion">
+                    <option value="Medellin">Medellin</option>
+                    <option value="Barranquilla">Barranquilla</option>
+                    <option value="Bucaramanga">Bucaramanga</option>
+                    <option value="Cali">Cali</option>
+                </datalist>
+                <br>
+                <br>
+                <input class="input6" list="perfiles" name="perfiles" id="" placeholder="Selecciona tu perfil" required>
+                <datalist id="perfiles">
+                    <option value="Conductor">Conductor</option>
+                    <option value="Usuario">Usuario</option>
+                </datalist>
+                <br>
+                <br>
+                <textarea class="input6-1" name="comentarios" id="comentarios" cols="24" rows="9" maxlength="300" placeholder="comentarios"></textarea>
+            </div>
+            <div>
+                <button class="boton6" type="submit">Registrarte</button>
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <h1 class="titulo-sesion6">Acerca de nosotros</h1>
+            <div class="sesion7-1">
+                <div>
+                    <h3 class="titulo7">¿Quienes somo?</h3>
+                    <iframe width="360" height="275" src="https://www.youtube.com/embed/7CFyOSd-m3o?si=58-kJdzK-rMrx52S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div>
+                    <h3 class="titulo7">¿Donde estamos ubicados?</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.338166318278!2d-75.5862345814284!3d6.219060145563828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44293f0e114eef%3A0x99610cdd44c7c081!2sRiwi%20-%20Be%20a%20Coder!5e0!3m2!1ses!2sco!4v1712678250900!5m2!1ses!2sco" width="380px" height="265px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <a id="icono-what" href="https://api.whatsapp.com/send?phone=3017325327" target="_blank">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+
     </main>
-    <footer></footer>
+    <footer id="contactanos" class="footer">
+        <div>
+            <a class="icono-footer" href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a class="icono-footer" href="https://www.instagram.com/" target="_blank">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a class="icono-footer" href="https://co.linkedin.com/" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a class="icono-footer" href="https://twitter.com/?lang=es" target="_blank">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+        </div>
+        <p>© 2024 <a href="https://moodle.riwi.io/?redirect=0" target="_blank">Riwi.io</a> Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>

@@ -63,6 +63,11 @@
     color: var(--blanco);
 }
 
+.boton a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+
 
 .sesion{
     display:flex;
@@ -76,6 +81,7 @@
     text-align: center;
     width: 400px;
     margin-left: 80px;
+    font-style: italic;
 }
 
 .imagen-sesion{
@@ -142,3 +148,131 @@
     margin-right: 100px;
     border-radius: 22px;
 }
+
+.sesion4{
+    display:inline-block;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.imagen-sesion4{
+    width: 410px;
+    height: 250px;
+    border-radius: 22px;
+    margin-top: 18px;
+    margin-left: 165px;
+}
+
+.titulo-sesion4{
+    color: var(--azul-oscuro);
+    text-align: center;
+    width: 700px;
+    margin-left: 14px;
+    font-style: italic;
+}
+
+.sesion5{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.formulario{
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 510px;
+}
+
+.titulo-sesion6{
+    color: var(--azul-oscuro);
+    text-align: center;
+    width: 700px;
+    margin-left: 420px;
+    margin-top: 55px;
+    font-style: italic;
+}
+
+.input6{
+    width: 530px;
+    height: 28px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: var(--azul-claro);
+}
+
+.input6-1{
+    width: 530px;
+    height: 135px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: var(--azul-claro);
+}
+
+.boton6{
+    width: 185px;
+    height: 28px;
+    margin-top: 25px;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    background: var(--azul-claro);
+    color: var(--blanco);
+    margin-left: 687px;
+}
+
+.sesion7-1{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 27px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.titulo7{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    height: 50px;
+    background-color: #6b5cff;
+    text-align: center;
+    color: var(--blanco);
+}
+
+.icono-footer{
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: var(--blanco);
+    width: 30px;
+}
+
+#icono-what{
+    position: fixed;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    bottom: 30px;
+    right: 30px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 35px;
+    background-color: rgb(8, 206, 8);
+    color: white;
+}
+
+#icono-what:hover{
+    text-decoration: none;
+    color: rgb(8, 206, 8);
+    background-color: white;
+}
+
